@@ -8,6 +8,7 @@ import Footer from "./Components/Footer"; // footer
 
 export default function App() {
     return (
+        // sort of a helper component that will help you write better React components, you can wrap a set of components with <StrictMode />
         <React.StrictMode>
             <div className="App">
                 <Header/>
